@@ -14,7 +14,7 @@ import os
 from utlis import save_object
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path = os.path.join('artificts',"preprocessor.pki")
+    preprocessor_obj_file_path = os.path.join('artifacts',"preprocessor.pki")
 
 class DataTransformation:
     def __init__(self):
